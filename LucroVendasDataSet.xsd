@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LucroVendasDataSet" targetNamespace="http://tempuri.org/LucroVendasDataSet.xsd" xmlns:mstns="http://tempuri.org/LucroVendasDataSet.xsd" xmlns="http://tempuri.org/LucroVendasDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LucroVendasDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="LucroVendasDataSet" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="LucroVendasDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LucroVendasDataSetTable" msprop:Generator_RowEvHandlerName="LucroVendasDataSetTableRowChangeEventHandler" msprop:Generator_RowDeletedName="LucroVendasDataSetTableRowDeleted" msprop:Generator_RowDeletingName="LucroVendasDataSetTableRowDeleting" msprop:Generator_RowEvArgName="LucroVendasDataSetTableRowChangeEvent" msprop:Generator_TablePropName="LucroVendasDataSetTable" msprop:Generator_RowChangedName="LucroVendasDataSetTableRowChanged" msprop:Generator_UserTableName="LucroVendasDataSetTable" msprop:Generator_RowChangingName="LucroVendasDataSetTableRowChanging" msprop:Generator_RowClassName="LucroVendasDataSetTableRow" msprop:Generator_TableClassName="LucroVendasDataSetTableDataTable" msprop:Generator_TableVarName="tableLucroVendasDataSetTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pcode" msprop:Generator_ColumnPropNameInTable="pcodeColumn" msprop:Generator_ColumnPropNameInRow="pcode" msprop:Generator_UserColumnName="pcode" msprop:Generator_ColumnVarNameInTable="columnpcode" type="xs:string" minOccurs="0" />
+              <xs:element name="pdesc" msprop:Generator_ColumnPropNameInTable="pdescColumn" msprop:Generator_ColumnPropNameInRow="pdesc" msprop:Generator_UserColumnName="pdesc" msprop:Generator_ColumnVarNameInTable="columnpdesc" type="xs:string" minOccurs="0" />
+              <xs:element name="preco_venda" msprop:Generator_ColumnPropNameInTable="preco_vendaColumn" msprop:Generator_ColumnPropNameInRow="preco_venda" msprop:Generator_UserColumnName="preco_venda" msprop:Generator_ColumnVarNameInTable="columnpreco_venda" type="xs:decimal" minOccurs="0" />
+              <xs:element name="preco_compra" msprop:Generator_ColumnPropNameInTable="preco_compraColumn" msprop:Generator_ColumnPropNameInRow="preco_compra" msprop:Generator_UserColumnName="preco_compra" msprop:Generator_ColumnVarNameInTable="columnpreco_compra" type="xs:decimal" minOccurs="0" />
+              <xs:element name="qty" msprop:Generator_ColumnPropNameInTable="qtyColumn" msprop:Generator_ColumnPropNameInRow="qty" msprop:Generator_UserColumnName="qty" msprop:Generator_ColumnVarNameInTable="columnqty" type="xs:int" minOccurs="0" />
+              <xs:element name="lucro_total" msprop:Generator_ColumnPropNameInTable="lucro_totalColumn" msprop:Generator_ColumnPropNameInRow="lucro_total" msprop:Generator_UserColumnName="lucro_total" msprop:Generator_ColumnVarNameInTable="columnlucro_total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="sdate" msprop:Generator_ColumnPropNameInTable="sdateColumn" msprop:Generator_ColumnPropNameInRow="sdate" msprop:Generator_UserColumnName="sdate" msprop:Generator_ColumnVarNameInTable="columnsdate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="funcionario" msprop:Generator_ColumnPropNameInTable="funcionarioColumn" msprop:Generator_ColumnPropNameInRow="funcionario" msprop:Generator_UserColumnName="funcionario" msprop:Generator_ColumnVarNameInTable="columnfuncionario" type="xs:string" minOccurs="0" />
+              <xs:element name="cancelamentos" msprop:Generator_ColumnPropNameInTable="cancelamentosColumn" msprop:Generator_ColumnPropNameInRow="cancelamentos" msprop:Generator_UserColumnName="cancelamentos" msprop:Generator_ColumnVarNameInTable="columncancelamentos" type="xs:decimal" minOccurs="0" />
+              <xs:element name="lucro_final" msprop:Generator_ColumnPropNameInTable="lucro_finalColumn" msprop:Generator_ColumnPropNameInRow="lucro_final" msprop:Generator_UserColumnName="lucro_final" msprop:Generator_ColumnVarNameInTable="columnlucro_final" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,24 @@
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Build
+[Bb]in/
+[Oo]bj/
+*.pdb
+*.ilk
+*.log
+
+# Pacotes/artefatos
+packages/
+*.nupkg
+
+# Rider/JetBrains
+.idea/
+
+# DB locais (se houver)
+*.mdf
+*.ldf
+*.dbmdl
